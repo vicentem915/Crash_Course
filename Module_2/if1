@@ -1,0 +1,6 @@
+n = 4
+if n*6 > n**2 or n%2 == 0:
+    print("Check")
+
+# Printed "Check" because 24 is > 16
+# and 4%2 == 0

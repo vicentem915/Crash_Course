@@ -1,0 +1,12 @@
+def greater_value(x, y):
+    if x > y:
+        return x
+    else:
+       return y
+
+
+print(greater_value(10,3*5))
+
+# Printed 15 because x = 10 
+# y = 15 and 15 is the greater
+# value.
