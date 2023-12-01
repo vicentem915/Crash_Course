@@ -1,0 +1,17 @@
+def complementary_color(color):
+    if color == "blue":
+        complement = "orange"
+    elif color == "yellow":
+        complement = "purple"
+    elif color == "red":
+        complement = "green"
+    else:
+        complement = "unknown"
+    return complement
+
+print(complementary_color("blue")) # Should print orange
+print(complementary_color("yellow")) # Should print purple
+print(complementary_color("red")) # Should print green
+print(complementary_color("black")) # Should print unknown
+print(complementary_color("Blue")) # Should print unknown
+print(complementary_color("")) # Should print unknown
